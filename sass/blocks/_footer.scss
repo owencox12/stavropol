@@ -1,0 +1,102 @@
+.footer {
+    background: #F4F8FD;
+    min-height: 495px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 50px;
+        border-bottom: 1px solid #C7D0E2;
+        padding-bottom: 30px;
+    }
+    &__item {
+        &_title {
+            font-family: 'Mplus 1p Bold';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 21px;
+            text-transform: uppercase;
+            color: #323A49;
+            margin-bottom: 15px;
+        }
+        &_list {
+            &_type {
+                margin: 10px 0;
+                a {
+                    font-family: 'Mplus 1p';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 21px;
+                    color: #323A49;
+                    text-decoration: none;
+                    width: 225px;
+                }
+            }
+        }
+        &_link {
+            margin-top: 15px;
+            a {
+                font-family: 'Mplus 1p Bold';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 21px;
+                text-transform: uppercase;
+                color: #323A49;
+                text-decoration: none;
+            }
+        }
+    }
+    &__wrapper_second {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 30px;
+        align-items: center;
+    }
+    &__item {
+        &_second {
+            &_logo {
+                display: flex;
+                align-items: center;
+            }
+        }
+        &_text {
+            margin-left: 15px;
+            &_top {
+                font-family: 'Mplus 1p ExtraBold';
+                font-size: 18px;
+                font-weight: 800;
+                line-height: 21px;
+                text-transform: uppercase;
+                color: #323A49;
+            }
+            &_bottom {
+                font-family: 'Mplus 1p';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 18px;
+                color: #858C9C;
+                margin-top: 2px;
+            }
+        }
+        &_rule {
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 16px;
+            text-decoration-line: underline;
+            color: #323A49;
+        }
+        &_developer {
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 16px;
+            color: #858C9C;
+        }
+    }
+}

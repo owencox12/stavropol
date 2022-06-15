@@ -1,0 +1,17 @@
+.button {
+    &--promo {
+        width: 250px;
+        height: 50px;
+        border: 1px solid #2054A2;
+        border-radius: 5px;
+        background: none;
+        span {
+            font-family: 'Mplus 1p';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 21px;
+            color: #275BA8;
+        }
+    }
+}

@@ -1,0 +1,72 @@
+.promo {
+    position: relative;
+    &__image {
+        width: 100%;
+        position: relative;
+        img {
+            max-width: 100%;
+        }
+        &_info {
+            position: absolute;
+            top: 90px;
+            left: 21%;
+            max-width: 1108px;
+            margin: 0 auto;
+        }
+        &_title {
+            font-family: 'Mplus 1p Bold';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 64px;
+            line-height: 72px;
+            color: #323A49;
+            width: 450px;
+        }
+        &_descr {
+            font-family: 'Mplus 1p';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 30px;
+            color: #323A49;
+            width: 400px;
+            margin-top: 30px;
+        }
+        &_button {
+            margin-top: 30px;
+        }
+    }
+    .swiper-pagination-bullet {
+        border-radius: 0;
+        width: 24px;
+        height: 4px;
+    }
+    .swiper-pagination {
+        position: absolute;
+        text-align: left;
+        left: 21%;
+        bottom: 5%;
+    }
+    .promo__left {
+        position: absolute;
+        right: 20%;
+        top: 30%;
+        z-index: 1001;
+        cursor: pointer;
+        img {
+            width: 30px;
+            height: 30px;
+        }
+    }
+    .promo__right {
+        position: absolute;
+        right: 20%;
+        top: 35%;
+        z-index: 1001;
+        cursor: pointer;
+        img {
+            width: 30px;
+            height: 30px;
+        }
+    }
+}
